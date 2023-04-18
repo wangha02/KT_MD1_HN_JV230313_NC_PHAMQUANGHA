@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/HN_JV230313_BS_PQH/sty.css">
+</head>
+
+<body>
+    <h1 style="text-align: center;">Thông Tin Học Viên</h1>
+    <form class="container">
+        <div class="main">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="gender">Giới tính:</label>
+            <select id="gender" name="gender">
+                <option value="male">Nam</option>
+                <option value="female">Nữ</option>
+            </select>
+
+            <label for="hometown">Địa chỉ:</label>
+            <input type="text" id="hometown" name="hometown" required>
+
+            <button type="submit" id="add-btn">Thêm Học Viên</button>
+            <ul id="student-list"></ul>
+        </div>
+    </form>
+    <div class="list-student">
+        <div class="head">
+            <h1 style="text-align: center;">Danh Sách Học Viên</h1>
+        </div>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Tìm kiếm học viên">
+            <button id="search-button">Tìm kiếm</button>
+        </div>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Họ tên</th>
+                    <th>Email</th>
+                    <th>điện thoại</th>
+                    <th>địa chỉ</th>
+                    <th>Gender</th>
+                    <th>Hành động</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            <button id="sort-btn">Arrange</button>
+            <button id="submit-btn" type="submit" style="display: block;">Add</button>
+
+
+        </table>
+    </div>
+    <script src="/HN_JV230313_BS_PQH/setting.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,130 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+
+#student-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+/* Style cho bảng danh sách */
+.list-student {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-edit {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(46, 0, 250);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.btn-delete {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+#sort-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 0, 200);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+#submit-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 230, 0);
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.btn1:hover {
+    background-color: #5df7ef;
+}
+.btn2:hover {
+    background-color: #5df7ef;
+}
+
+.btn-edit {
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.btn-delete {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
